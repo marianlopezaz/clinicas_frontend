@@ -1,0 +1,55 @@
+.photo_patient{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.inputs_containers{
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.input__avatar_containers{
+    text-align: center;
+    
+}
+.last_inputs_container{
+    margin-left: 8.5%;
+}
+.patient_input{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+.patient_info_label{
+    text-align: left;
+    font-weight: 600;
+}
+#submit_patient_info{
+    font-weight: 800;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    width: 30%;
+    padding: .7em 0;
+    color: #ffffff;
+    background-color: var(--main_color);
+    transition: all .3s;
+}
+#submit_patient_info:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+.date_picker{
+    padding: 8px 0 !important;
+    width: 100%;
+    color: #000000 !important;
+}
+.MuiPickersDay-daySelected{
+    background-color: var(--main_color) !important;
+}
+.MuiInput-underline:after{
+    border-bottom: 1px solid var(--main_color) !important;
+}
+.MuiInput-underline:before {
+    border-bottom: 1px solid #000000 !important;
+}

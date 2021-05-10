@@ -1,0 +1,90 @@
+
+.input_add_patient_modal{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(185, 182, 177);
+    padding: 15px;
+    width: 100%;
+    min-width: 230px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+#email_label{
+    margin-top: auto;
+}
+
+#date_label{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(185, 182, 177);
+    width: 340px;
+    padding: 17.3px;
+}
+
+.input_add_patient_modal:hover, #date_label:hover{
+   border-color: var(--main_color);
+}
+
+.input_add_patient_modal:focus,#date_label:focus{
+    border-color: var(--main_color);
+ }
+
+
+#close_modal_button{
+    border-style: none;
+    background-color: #ffffff;
+}
+
+
+ .add_button_modal{
+    margin:auto;
+    font-weight: 800;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    width: 30%;
+    padding: .7em 0;
+    color: #ffffff;
+    background-color: var(--main_color);
+    transition: all .3s;
+}
+
+.add_button_modal:hover{
+    opacity: 80%;
+    background-color: var(--main_color);
+}
+
+.modal-title{
+    text-align: center;
+    margin-left: 40%;
+    color: rgb(175, 172, 167);
+}
+
+.modal_success_title{
+    text-align: center;
+    color: rgb(175, 172, 167);
+    font-weight: bold;
+    margin-left: 20%;
+    font-size: 30px;
+}
+
+
+.modal-footer{
+    border: none; 
+    text-align: center;
+ }
+
+
+.modal-header{
+    text-align: center;
+    border:none 
+}
+
+@media(max-width: 997px){
+    .modal_success_title{
+       margin-left: auto;
+    }
+}

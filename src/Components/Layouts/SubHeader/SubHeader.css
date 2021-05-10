@@ -1,0 +1,28 @@
+.header_user_container{
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        background-color: #ffffff !important;
+        box-shadow: 10px 10px 10px #DFDFDF;
+        height: 60px;
+        margin-bottom: 2vh;
+    
+}
+
+.arrow_back_navlink{
+margin-top: 5px;
+display: inline-block;
+}
+
+.row_user_name{
+    font-weight: bold;
+    margin-top: 28px;
+}
+
+.row_user_state{
+    font-size: small;
+}
+
+.user_info_container{
+    text-align: center;
+}

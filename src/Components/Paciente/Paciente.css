@@ -1,0 +1,29 @@
+
+.side_bar_container{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.patient_header_container{
+ width: 100%;
+}
+
+.side_bar_patient_container{
+    width: 70%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -20px 10px 10px rgb(179, 178, 178);
+}
+
+.information_row{
+    text-align: center;
+}
+
+/* #header_patient_container{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top:40px;
+    z-index: 100;
+} */

@@ -1,0 +1,136 @@
+
+/* Logos */
+
+#logo_cliente_header {
+    width: 90px;
+    border-radius:  100%;
+    padding: 0.3em;
+}
+
+#logout_user_icon {
+    width: 40px;
+    padding: 0.3em;
+    position: relative;
+    top: 17px;
+}
+
+#logout_user_icon:hover {
+    cursor: pointer;
+}
+
+/* Containers */
+
+.header_container{
+    width: 100%;
+    height: 20%;
+}
+
+.col_user_name_container{
+    text-align: right;
+}
+
+.col_logout_icon_container{
+    text-align: center;
+
+}
+
+.col_user_name{
+    text-align: left;
+}
+
+.col_user_rol{
+    text-align: left;
+    color: white;
+}
+
+.user_avatar{
+    position: relative;
+    top: -5px;
+}
+
+.user_container_row{
+    display: inline-block;
+}
+/* Textos */
+
+#user_name{
+    position: relative;
+    top: 13px;
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+#user_rol{
+    position: relative; 
+    top: 5px;
+    color: white;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+#see_profile_arrow{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#see_profile_link{
+    position: relative;
+    top: -5px;
+    left: 5px;
+    transition: all .3s;
+}
+
+@media(max-width: 1300px){
+    #logout_user_icon {
+        width: 35px;
+        top: 20px;
+    }
+    .user_avatar{
+        top: -2px !important;
+        width: 45px !important;
+        height: 45px !important;
+    }
+    #user_name{
+        top: 17px;
+        font-size: 19px;
+    }
+    #user_rol{
+        position: relative; 
+        top: 7px;
+        color: white;
+        font-size: 13px;
+        text-transform: capitalize;
+    }
+    #see_profile_link{
+        top: 0px;
+    }
+}
+@media(max-width: 1150px){
+    #logo_cliente_header {
+        width: 80px;
+    }
+    #logout_user_icon {
+        width: 35px;
+        top: 17px;
+    }
+    .user_avatar{
+        top: -3px !important;
+        width: 45px !important;
+        height: 45px !important;
+    }
+    #user_name{
+        top: 15px;
+        font-size: 17px;
+    }
+    #user_rol{
+        position: relative; 
+        top: 7px;
+        color: white;
+        font-size: 13px;
+        text-transform: capitalize;
+    }
+    #see_profile_link{
+        top: 0px;
+    }
+}

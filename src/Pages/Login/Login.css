@@ -1,0 +1,128 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: rgb(248, 248, 248);
+}
+.row{
+    margin: 0px;
+}
+.center{
+    text-align: center !important;
+}
+#logo_cliente_login{
+    width: 20em;
+    border-radius: 100%;
+    margin-top: 2em
+}
+.form-control{
+    font-weight: 300;
+    border-radius: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #000000;
+    border-bottom: 1px solid rgb(0, 0, 0) !important;
+    margin-top: 1em;
+}
+.form-control:focus {
+    color: #000000;
+    background-color: #fff;
+    border-color: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid var(--main_color) !important;
+    outline: 0;
+    box-shadow: none;
+}
+#datafields_container{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3em 5em;
+    box-shadow: 10px 10px 10px #DFDFDF;
+    background: #ffffff;
+    margin-top: 3em;
+    width: 40% !important;
+}
+#datafields_container p{
+    font-weight: 800;
+    font-size: 18px;
+    width: 100%;
+}
+#ingresar_btn{
+    margin-top: 3em;
+}
+#datafields_container button{
+    font-weight: 800;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    padding: .7em 0;
+    color: #ffffff;
+}
+#datafields_container button:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+@media(max-width: 1300px){
+    #datafields_container{
+        width: 50% !important;
+    }
+}
+@media(max-width: 1100px){
+    #datafields_container{
+        width: 55% !important;
+    }
+}
+@media(max-width: 997px){
+    #datafields_container{
+        width: 65% !important;
+    }
+}
+@media(max-width: 668px){
+    #datafields_container{
+        width: 90% !important;
+    }
+    #logo_cliente_login{
+        width: 15em;
+    }
+}
+@media(max-width: 500px){
+    #datafields_container{
+        padding: 2em 2em;
+    }
+    #logo_cliente_login{
+        margin-top: 10% !important;
+        width: 12em;
+    }
+    #p_iniciar_sesion{
+        font-size: 15px !important;
+    }
+    .form-control{
+        font-size: 12px !important;
+    }
+    #datafields_container button{
+        font-size: 15px;
+    }
+}
+@media(max-width: 450px){
+    #datafields_container{
+        width: 97% !important;
+    }
+}
+@media(max-width: 400px){
+    #logo_cliente_login{
+        margin-top: 15% !important;
+        width: 10em;
+    }
+    #datafields_container{
+        width: 100% !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px !important;
+        box-shadow: none !important;
+        background: none !important;
+        margin-top: 3em;
+    }
+}

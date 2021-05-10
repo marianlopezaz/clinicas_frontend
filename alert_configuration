@@ -1,0 +1,13 @@
+.s-alert-success {
+    border: 1px solid #4CAF50;
+    background: #ffffff;
+    color: #1E4620;
+    border-radius: 5px;
+}
+
+.s-alert-error {
+    border: 1px solid #F44336;
+    background: #ffffff;
+    color: #611A15;
+    border-radius: 5px;
+}

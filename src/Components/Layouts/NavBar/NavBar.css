@@ -1,0 +1,80 @@
+#navbar_container{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color: #ffffff !important;
+    box-shadow: 10px 10px 10px #DFDFDF;
+    height: 60px;
+    margin-bottom: 2vh;
+}
+#navbar_col_container{
+    padding: 0;
+}
+.navbar-item{
+    color: #a9a9aa;
+    position: relative;
+    top: 17px;
+    outline: none;
+}
+.navbar-item:hover{
+    text-decoration: none;
+    color: #a9a9aa;
+}
+.navbar_logos{
+    width: 20px;
+    position: relative;
+    right:10px;
+    top: -3px
+}
+#estadisticas_logo{
+    width: 23px;
+    top: -3px;
+}
+#config_logo_span{
+    position: relative;
+    top: 8px;
+    left: 17px;
+    width: 22px;
+}
+#config_logo_span img{
+    width: 22px;
+}
+.dropdown.nav-item{
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    outline: none !important;
+}
+.dropdown.nav-item a{
+    color: #a9a9aa;
+}
+
+@media(max-width: 1300px){
+    .navbar-item{
+        font-size: 16px;
+    }
+    .dropdown.nav-item{
+        font-size: 16px;
+    }
+}
+@media(max-width: 1150px){
+    .navbar-item{
+        font-size: 14px;
+    }
+    .dropdown.nav-item{
+        font-size: 14px;
+        top: 10px;
+    }
+    #config_logo_span{
+        top: 12px;
+    }
+    .navbar_logos{
+        width: 18px;
+    }
+    #estadisticas_logo{
+        width: 20px;
+    }
+    #config_logo_span img{
+        width: 19px;
+    }
+}

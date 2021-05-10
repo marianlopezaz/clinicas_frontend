@@ -1,0 +1,28 @@
+.health_insurance_container{
+    background-color: #fff;
+    display: block;
+    height: 100px;
+    margin: 2%;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #DFDFDF;
+    transition: transform .2s;
+    border-style: solid;
+    border-width: 0;
+    border-left-width: 5px;
+    border-left-color: var(--main_color);
+}
+
+.health_insurance_container:hover{
+    transform: scale(1.05);
+}
+
+.patient_health_insurance_container{
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px #DFDFDF;
+    display: inline-block;
+    padding: 20px;
+    max-width: 30%;
+}
